@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+}
+/* nav bar section */
+.nav_container {
+  /* position: fixed; */
+  display: flex;
+  align-items: center; /* varticaly center */
+  justify-content: space-around;
+  background-color: #00ca99;
+  padding: 10px;
+}
+.logo img {
+  width: 100px;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 15px;
+}
+.menu a:hover {
+  background-color: tomato;
+  padding: 10px;
+  transition: 0.7s;
+  border-radius: 5px;
+}
+
+/* About  section */
+
+.picture img {
+  width: 100%;
+}
+#about {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  align-items: center;
+}
+.title {
+  font-size: 46px;
+  font-weight: bold;
+  color: #00ca99;
+  padding: 10px;
+}
+.details p {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.A-btn {
+  color: white;
+  background-color: tomato;
+}
+.A-btn:hover {
+  background: #00ca99;
+}
+.D-btn {
+  color: white;
+  background-color: palevioletred;
+}
+.D-btn:hover {
+  background: #00ca99;
+}
+
+/* services section */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.card {
+  width: 300px;
+  height: 450px;
+  box-shadow: 8px 8px 16px gray;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  padding: 20px;
+}
+.card button {
+  margin-top: 10px;
+}
+
+/* contact section */
+#contact {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.input_box {
+  width: 80%;
+  padding: 10px 70px;
+  margin: 10px;
+}
+.textare {
+  width: 80%;
+  padding: 0px 20px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+.s-btn {
+  background-color: #00ca99;
+}
+
+/* footer section */
+footer {
+  background-color: #00ca99;
+}
+.last {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.snd {
+  list-style: none;
+  color: white;
+}
+.snd h3 {
+  margin: 10px;
+}
+.snd li {
+  margin: 5px;
+  margin-left: 10px;
+}
+.last_last {
+  margin: 20px;
+  padding: 20px;
+}
+.sm {
+  text-align: center;
+  color: bisque;
+}
+/* Responsive */
+@media only screen and (max-width: 770px) {
+  .nav_container {
+    display: block;
+  }
+  .picture img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  #about {
+    display: block;
+  }
+}
