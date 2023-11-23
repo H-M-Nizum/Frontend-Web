@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* 1st */
+.bank_box {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.diposite {
+  background-color: aqua;
+  padding: 100px;
+}
+.withdraw {
+  background-color: brown;
+  padding: 100px;
+}
+.total {
+  background-color: palevioletred;
+  padding: 100px;
+}
+
+/* 2nd */
+.withdraw_diposite {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+.amount {
+  padding: 40px;
+  border: 5px;
+  border-color: gray;
+  background-color: antiquewhite;
+}
+
+.inpo {
+  width: 250px;
+  padding: 10px;
+}
+.btn_d {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: green;
+  color: white;
+}
+.btn_w {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: red;
+  color: white;
+}

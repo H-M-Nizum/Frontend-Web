@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bank_box">
+      <div class="diposite">
+        <div>
+          <h1 id="deposit_box" class="amout">00</h1>
+          <p>Diposite</p>
+        </div>
+      </div>
+      <div class="withdraw">
+        <div>
+          <h1 id="withdraw_box" class="amout">00</h1>
+          <p>Withdraw</p>
+        </div>
+      </div>
+      <div class="total">
+        <div>
+          <h1 id="total_value" class="amout">00</h1>
+          <p>Total</p>
+        </div>
+      </div>
+    </div>
+    <div class="withdraw_diposite">
+      <div class="amount">
+        <div>
+          <input
+            id="input_value1"
+            class="inpo"
+            type="text"
+            placeholder="Enter your amount"
+          />
+        </div>
+        <br />
+        <div>
+          <button onclick="handelDposit()" class="btn_d">Diposite</button>
+        </div>
+      </div>
+      <div class="amount">
+        <div>
+          <input
+            id="input_value2"
+            class="inpo"
+            type="text"
+            placeholder="Enter your amount"
+          />
+        </div>
+        <br />
+        <div>
+          <button onclick="handelWithdraw()" class="btn_w">Withdraw</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
