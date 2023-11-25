@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="blog_body">
+    <div class="container blog_Accordion">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item text-bg-secondary">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed text-bg-secondary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              QS: Discuss the scope of var, let, and const
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Discuss the scope of var, let and const is given bleow_
+              <br />var:- The scope of var is functional scope. so a variable
+              declared in a function with var is only available for this
+              function. It can be updated and re declar into the scope. The
+              scope is global when var is declared outside a function. used var
+              keyword , if must support for older browsers. <br />let:- The
+              scope of let is block scope. so a variable declared in a block
+              with let is only available for this block. It can be updated but
+              can not re declar into the scope. <br />const:- The scope of const
+              is block scope. so a variable declared in a block with const is
+              only available for this block. It can not be updated and re declar
+              into the scope. Used const keyword if the value should not be
+              changed.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item text-bg-secondary">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed text-bg-secondary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              QS : Tell us the use cases of null and undefined
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              ANS :- The use cases of null and undefined is given bleow_
+              <br />NULL:- Null is the intentional absence of the value. It is
+              one of the primative values of javascript. When we define a
+              variable to undefined then we are trying to convey that the
+              variable does not exist. It can be assigned to a variable as a
+              representation of no value.null is type of object. we can empty an
+              object by setting it to null.
+              <br />
+              UNDEFINED:- Undefined means the value does not exist in the
+              compiler.When we define a variable to null then we are trying to
+              convey that the variable is empty. when variable is not assigned a
+              value. undefine its type of itself. Any variable can be emptied,
+              by setting the value undefined.
+
+              <br />
+              null and undefiend allmost equql but different type.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item text-bg-secondary">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed text-bg-secondary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              QS : What do you mean by REST API?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              ANS :- REST API __ API stands for Application Programming
+              Interface. An API estabkishes a connection between programs so
+              they can transfer data. AND REST stands for Representational state
+              transfer. So REST API is an architectural style for an application
+              program interface that use http requests to access, use,
+              manupulate and delete data.
+              <br />
+              The most commonly used methods are:
+              <br />* GET: Read data <br />* POST: Create data <br />* PATCH/
+              PUT: update data <br />* DELETE: delete data. <br />These methods
+              are called CRUD operation. So we can create, read, update and
+              delete data from a server through REST API.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="back_hoome">
+      <a id="back_to_home" href="index.html">Back to Home</a>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

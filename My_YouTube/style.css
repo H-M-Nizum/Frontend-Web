@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* nav bar section start */
+.vab_calss {
+  margin-top: 20px;
+}
+#sortbyview {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+#blog {
+  background-color: #f12525;
+  padding: 6px 14px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+.line {
+  color: black;
+  width: 2px;
+}
+/* nav bar section end */
+/* iteam list section start */
+#caragory {
+  display: flex;
+  gap: 10px;
+
+  justify-content: center;
+}
+.iteam_button {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+}
+/* iteam list section end */
+
+/* product list section start */
+#products {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box {
+  height: 400px;
+  width: 300px;
+
+  text-align: center;
+}
+.box_img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+.box_logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  margin-top: 25px;
+  padding-left: 25px;
+}
+.name {
+  display: flex;
+  gap: 10px;
+  padding-left: 85px;
+}
+.verify {
+  height: 20px;
+}
+.view {
+  display: flex;
+  padding-left: 85px;
+}
+.text {
+  font-size: smaller;
+}
+/* product list section end */
+/* blog_Accordion section start */
+#blog_body {
+  background-color: rgb(38, 37, 37);
+}
+.blog_Accordion {
+  margin-top: 50px;
+}
+/* blog_Accordion section end */
+/* sorry section start */
+#sorry {
+  text-align: center;
+  margin-top: 50px;
+}
+/* sorry section end */
+.clicked {
+  background-color: #f12525;
+  color: white;
+}
+
+/* time */
+.time_continar {
+  position: relative;
+}
+.time_text {
+  position: absolute;
+  right: 10px;
+
+  top: 160px;
+  padding: 0px 5px;
+  border-radius: 5px;
+  background-color: rgb(28, 27, 27);
+  color: white;
+}
+
+#back_to_home {
+  text-decoration: none;
+}
+.back_hoome {
+  text-align: center;
+  margin-top: 20px;
+}
+@media (max-width: 376px) {
+  #blog {
+    margin-left: 240px;
+  }
+  #sortbyview {
+    margin-bottom: 10px;
+  }
+}
