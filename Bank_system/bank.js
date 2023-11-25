@@ -31,7 +31,10 @@ document.getElementById("deposit_id").addEventListener("click", () => {
     // update total balance section
     document.getElementById("total_balance_id").innerText = `$${total_money}`;
   }
+  // finaly input field set previous state or empty
+  document.getElementById("deposit_input").value = "";
 });
+
 // Withdraw section
 
 document.getElementById("withdraw_id").addEventListener("click", () => {
@@ -71,4 +74,6 @@ document.getElementById("withdraw_id").addEventListener("click", () => {
     // update total balance section
     document.getElementById("total_balance_id").innerText = `$${total_money}`;
   }
+  // finaly input field set previous state or empty
+  document.getElementById("withdraw_input").value = "";
 });
