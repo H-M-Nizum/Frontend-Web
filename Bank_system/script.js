@@ -8,8 +8,8 @@ document.getElementById("submit_btn").addEventListener("click", () => {
   const password = passwordField.value;
   // chack user valid or not
   if (email === "user@gmail.com" && password === "1234") {
-    console.log("valid user");
+    location.href = "bank.html";
   } else {
-    console.log("Invalid user");
+    alert("Invalid user id ❌");
   }
 });
