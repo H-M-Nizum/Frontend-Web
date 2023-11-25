@@ -28,3 +28,36 @@ document.getElementById("deposit_id").addEventListener("click", () => {
 
   console.log(deposit_money);
 });
+// Withdraw section
+
+document.getElementById("withdraw_id").addEventListener("click", () => {
+  // get withdraw amount
+  const withdraw = document.getElementById("withdraw_input").value;
+  //   convert string to number
+  const withdraw_amount = parseFloat(withdraw);
+
+  // get withdraw total balance
+  const withdraw_balance = document.getElementById(
+    "withdraw_balance_id"
+  ).innerText;
+  // slice and convert number
+  let withdraw_money = parseFloat(
+    withdraw_balance.slice(1, withdraw_balance.length)
+  );
+  // add new withdraw amount in withdraw money
+  withdraw_money = withdraw_money + withdraw_amount;
+  //   update total withdraw balance section
+  document.getElementById(
+    "withdraw_balance_id"
+  ).innerText = `$${withdraw_money}`;
+  //   get total balance section
+  const total_balance = document.getElementById("total_balance_id").innerText;
+  // slice and convert to number
+  let total_money = parseFloat(total_balance.slice(1, total_balance.length));
+  // add withdraw amount in total money
+  total_money = total_money - withdraw_amount;
+  // update total balance section
+  document.getElementById("total_balance_id").innerText = `$${total_money}`;
+
+  console.log(withdraw_money);
+});
