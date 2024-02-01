@@ -3,22 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hospital</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <!-- /* nav bar section */ -->
+  <body id="home">
+    <!----------------- /* nav bar section start  */ -------------------->
     <header class="nav_container">
       <div class="logo">
         <img src="img/logo-1.png" alt="logo" />
       </div>
       <div class="menu">
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Service</a>
         <a href="#contact">Contact</a>
       </div>
     </header>
+
+    <!-- -------------------------- navbar section end -------------------------- -->
+    <!-- -------------------------- about section start -------------------------- -->
     <div id="about">
       <div class="details">
         <h1 class="title">Make Your Appointment Now</h1>
@@ -35,6 +38,10 @@
         <img src="img/banner-shape-1.png" alt="banar img" />
       </div>
     </div>
+
+    <!-- -------------------------- about section end -------------------------- -->
+    <!-- -------------------------- services section start -------------------------- -->
+
     <div id="services">
       <h1 class="title" style="text-align: center">OUR SERVICES</h1>
       <div class="cards">
@@ -70,35 +77,49 @@
         </div>
       </div>
     </div>
+    <!-- -------------------------- services section end -------------------------- -->
+    <!-- -------------------------- contact section start -------------------------- -->
 
     <div id="contact">
       <h1 class="title" style="text-align: center; margin-bottom: 50px">
         Contuct With Us
       </h1>
-      <form action="">
-        <input
-          class="input_box"
-          type="text"
-          placeholder="Enter Your Name"
-        /><br />
-        <input
-          class="input_box"
-          type="email"
-          placeholder="Your Eamil"
-          required
-        /><br />
-        <textarea
-          class="textare"
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Your Message"
-        ></textarea
-        ><br />
-        <button class="s-btn">Send</button>
-      </form>
+      <div style="display: flex; ">
+        <div style="width: 50%;">
+          <form action="">
+            <input
+              class="input_box"
+              type="text"
+              placeholder="Enter Your Name"
+            /><br />
+            <input
+              class="input_box"
+              type="email"
+              placeholder="Your Eamil"
+              required
+            /><br />
+            <textarea
+              class="textare"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea
+            ><br />
+            <button class="s-btn">Send</button>
+          </form>
+        </div>
+        <div style="width: 50%;">
+          <img src="img/contact.jpg" alt="">
+        </div>
+      </div>
+
     </div>
+    <!-- -------------------------- contact section end -------------------------- -->
+    <!-- -------------------------- footer section start -------------------------- -->
+
+
     <footer>
       <div class="last">
         <div class="fst">
@@ -132,8 +153,11 @@
       </div>
       <div class="last_last">
         <hr />
-        <p class="sm">Copyright © 2023 Agence. All rights reserved.</p>
+        <p class="sm">Copyright © 2023 H_M_Nizum. All rights reserved.</p>
       </div>
     </footer>
+
+    <!-- -------------------------- footer section end -------------------------- -->
+
   </body>
 </html>

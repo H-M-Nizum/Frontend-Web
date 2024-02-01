@@ -37,7 +37,7 @@ button {
   border-radius: 5px;
 }
 
-/* About  section */
+/* ------------------------ About  section ---------------------------*/
 
 .picture img {
   width: 100%;
@@ -74,7 +74,7 @@ button {
   background: #00ca99;
 }
 
-/* services section */
+/*------------------------ services section -------------------------------*/
 
 .cards {
   display: flex;
@@ -100,7 +100,7 @@ button {
   margin-top: 10px;
 }
 
-/* contact section */
+/* --------------------------------- contact section ---------------------*/
 #contact {
   text-align: center;
   width: 100%;
@@ -109,12 +109,12 @@ button {
 }
 .input_box {
   width: 80%;
-  padding: 10px 70px;
+  padding: 10px 10px;
   margin: 10px;
 }
 .textare {
   width: 80%;
-  padding: 0px 20px;
+  padding: 0px 10px;
   margin: 10px;
   margin-bottom: 40px;
 }
@@ -122,7 +122,7 @@ button {
   background-color: #00ca99;
 }
 
-/* footer section */
+/* --------------------------footer section ---------------------------------*/
 footer {
   background-color: #00ca99;
 }
